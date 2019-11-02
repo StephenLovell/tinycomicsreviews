@@ -32,6 +32,7 @@ header {
     width: 70%;
     margin: 0 auto;
     margin-top: 5%;
+    position: relative;
 
     /* font-family: 'Passion One', cursive; */
     font-size: 1.4em;
@@ -66,6 +67,16 @@ header .byline {
     font-weight: normal;
     letter-spacing: normal;
     opacity: .5;
+}
+
+header .notice {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    font-size: .6em;
+    opacity: .5;
+    
 }
 
 main {
